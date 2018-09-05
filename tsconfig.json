@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./",
+    "sourceMap": true,
+    "target": "es6",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./lib/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "vscode": {
+    "rewriteTsconfig": true
+  }
+}
